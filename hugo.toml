@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://mavtek.onrender.com'
 languageCode = 'en-us'
 title = 'Mavtek Technologies'
 theme = "hugo-univeral-theme"
