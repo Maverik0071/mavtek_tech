@@ -92,22 +92,22 @@ disqusShortname = "devcows"
 
 banner = "img/banners/banner-4.jpg"
 
-[params.carouselHomepage]
+    [params.carouselHomepage]
     enable = true
     auto_play = true
     slide_speed = 2000
     pagination_speed = 1000
 
-[params.features]
+    [params.features]
     enable = true
     cols = 3
 
-[params.testimonials]
+    [params.testimonials]
     enable = true
     title = "Testimonials"
     subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
 
-[params.see_more]
+    [params.see_more]
     enable = true
     icon = "far fa-file-alt"
     title = "Do you want to see more?"
@@ -115,13 +115,13 @@ banner = "img/banners/banner-4.jpg"
     link_url = "http://your-site.com/more"
     link_text = "Check other homepages"
 
-[params.clients]
+    [params.clients]
     enable = true
     title = "Our Partners"
     subtitle = "We have proudly collaborated with the following companies."
     summaryLength = 70
 
-[params.recent_posts]
+    [params.recent_posts]
     enable = true
     title = "From our blog"
     subtitle = "Pellen"
