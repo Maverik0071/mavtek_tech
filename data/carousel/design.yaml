@@ -1,0 +1,10 @@
+weight: 2
+title: "Customer Support"
+description: >
+  <ul class="list-style-none">
+    <li> Email Support </li>
+    <li> Easy to get in contact with </li>
+    <li> Software integration for servers </li>
+  </ul>  
+image: "img/carousel/template-easy-code.png"
+href: "https://devcows.github.io/hugo-universal-theme/"
