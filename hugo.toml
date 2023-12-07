@@ -103,7 +103,7 @@ disqusShortname = "devcows"
     cols = 4
 
     [params.testimonials]
-    enable = true
+    enable = false
     title = "Testimonials"
     subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
 
@@ -111,18 +111,18 @@ disqusShortname = "devcows"
     enable = true
     icon = "far fa-file-alt"
     title = "Do you want to see more?"
-    subtitle = "Pl pages, including 5 variations of homepage."
+    subtitle = "Fill Out The Form"
     link_url = "http://your-site.com/more"
-    link_text = "Get in Contact With US"
+    link_text = "Click here Please"
 
     [params.clients]
-    enable = true
+    enable = false
     title = "Our Partners"
     subtitle = "We have proudly collaborated with the following companies."
     summaryLength = 70
 
     [params.recent_posts]
-    enable = true
+    enable = false
     title = "From our blog"
     subtitle = "Pellen"
     hide_summary = false
