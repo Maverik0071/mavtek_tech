@@ -64,7 +64,7 @@ disqusShortname = "devcows"
 #[[menu.main]]
 #    name        = "Contact"
 #    identifier  = "menu.contact"
-#    url         = "/static/my-first-post.md"
+#    url         = "/about.md"
 #    weight      = 4
 
 [params.widgets]
