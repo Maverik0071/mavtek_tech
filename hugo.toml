@@ -10,64 +10,62 @@ disqusShortname = "devcows"
 
 [params]
     disabled_logo = false
-    logo_text = "Universal"
+    logo_text = "img/mavtek_logo.jpg"
 
     logo = "img/mavtek_logo.jpg"
-    logo_small = "mavtek_logo.jpg"
+    logo_small = "img/mavtek_logo.jpg"
     dropdown_mouse_over = true
 
 # about_us
 
-    about_us = "<p> We here at Mavryk Technologies, We aim to make all your web solutions come true..</p>"
+    about_us = "<p> Here at Mavtek Technologies, We aim to make all your web solutions come true.  Please contact me @ Wsewell36@proton.me</p>"
 
 # contact_urls
 
     contact_url = "/contact"
-    address = """<p class="text-uppercase"><strong>Universal Ltd.</strong>
-        <br>1234 Street
-        <br>New Street
-        <br>12345
-        <br>Southfiled
-        <br>
+    address = """<p class="text-uppercase"><strong></strong>
+        <br>(248) 318-2910
+        <br>We are located in
+        <br>Wixom,
         <strong> Michigan</strong>
       </p>
       """
     # defaultContentLanguage
 
-    defaultKeywords = ["devcows", "hugo", "go"]
-    defaultDescription = "Site template made by Devcows using Hugo"
-    default_sharing_image = "img/sharing-default.png"
-    facebook_site = "https://www.facebook.com/GolangSociety/"
-    twitter_site = "GoHugoIO"
+  #  defaultKeywords = ["devcows", "hugo", "go"]
+  #  defaultDescription = "Site template made by Devcows using Hugo"
+  #  default_sharing_image = "img/sharing-default.png"
+  #  facebook_site = "https://www.facebook.com/GolangSociety/"
+  #  twitter_site = "GoHugoIO"
     
 [[params.menu]]
    name = "Contact"
-    # url  = "/static/form.html"
-   # weight = 4
+    url  = "/form.html"
+   weight = 4
 
-[[menu.main]]
-    name       = "Home"
-    identifier = "menu.home"
-    url        = "/"
-    weight     = 1
+#[[menu.main]]
+#    name       = "Home"
+#    identifier = "menu.home"
+#    url        = "/"
+#    weight     = 1
 
-[[menu.main]]
-    name       = "About"
-    identifier = "menu.about"
-    url        = "/"
-    weight     = 2
+#[[menu.main]]
+#    name       = "About"
+#    identifier = "menu.about"
+#    url        = "/"
+#    weight     = 2
 
-[[menu.main]]
-    name        = "Resume"
-    identifier  = "menu.resume"
-    url         = "/static/about.md"
-    weight      = 3
+#[[menu.main]]
+#    name        = "Resume"
+#    identifier  = "menu.resume"
+#    url         = "/about.md"
+#    weight      = 3
 
-[[menu.main]]
-    name        = "Contact"
-    identifier  = "menu.contact"
-    url         = "/static/my-first-post.md"
-    weight      = 4
+#[[menu.main]]
+#    name        = "Contact"
+#    identifier  = "menu.contact"
+#    url         = "/static/my-first-post.md"
+#    weight      = 4
 
 [params.widgets]
     search = true
@@ -76,7 +74,7 @@ disqusShortname = "devcows"
 
 [params.topbar]
     enable = true
-    text = "<p>Contact us on (248)318-2910 or wsewell36@proton.me.</p>"
+    text = "<p>MAVTEK TECHNOLOGIES</p>"
 
     [[menu.topbar]]
         weight = 1
@@ -108,7 +106,7 @@ disqusShortname = "devcows"
     subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
 
     [params.see_more]
-    enable = true
+    enable = false
     icon = "far fa-file-alt"
     title = "Do you want to see more?"
     subtitle = "Fill Out The Form"
