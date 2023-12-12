@@ -12,8 +12,8 @@ disqusShortname = "devcows"
     disabled_logo = false
     logo_text = "img/mavtek_logo.jpg"
 
-    logo = "img/mavtek_logo.jpg"
-    logo_small = "img/mavtek_logo.jpg"
+    logo = "mavtek_logo.jpg"
+    logo_small = "mavtek_logo.jpg"
     dropdown_mouse_over = true
 
 # about_us
