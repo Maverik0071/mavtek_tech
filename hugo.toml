@@ -42,7 +42,7 @@ disqusShortname = "devcows"
     
 [[params.menu]]
    #name = "Contact"
-   # url  = "/contact"
+   # url  = "/form.html"
    # weight = 4
 
 [[menu.main]]

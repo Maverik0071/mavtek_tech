@@ -1,2 +1,86 @@
-<!doctype html><html lang=en-us><head><title>https://mavtek-web-technologies.onrender.com/</title>
-<link rel=canonical href=https://mavtek-web-technologies.onrender.com/><meta name=robots content="noindex"><meta charset=utf-8><meta http-equiv=refresh content="0; url=https://mavtek-web-technologies.onrender.com/"></head></html>
+
+
+<!doctype html>
+<html lang=en-us>
+<head>
+<title>https://mavtek-web-technologies.onrender.com/</title>
+<link rel=canonical href=https://mavtek-web-technologies.onrender.com/><meta name=robots content="noindex">
+<meta charset=utf-8>
+<meta http-equiv=refresh content="0; url=https://mavtek-web-technologies.onrender.com/"></head></html>
+<body>
+    {{.content}}
+    {{.theme-stylesheet}}
+    {{ range .Pages }}
+
+    {{end}}
+        <center>
+            <h3> Services We Offer</h3>
+    </center>
+    <div class="row">
+        <div class="card"></div>
+            <div class="centercolumn"></div>
+            <h3><a href="https://www.vultr.com/ ">vultr</a>. The webhosting is free for one month, then after that we will </h3>
+            <h3>start up a payment plan so that it ca be paid for. Every website is different and the cost depends on how </h3>
+            <h3>much code is inside the code. region, and what type of instance is chosen. </h3>
+            </div>
+        </div>
+<br>
+    </div>
+
+<div class="row">
+    <div class="card">
+    <h2><center>Services Form</h2></center>
+    <h3>Fill this form out and let us know of the service that is required. If not you can email</h3>
+    </h3>
+
+    <form action="https://postmail.invotes.com/send" method="post" id="email_form">
+    
+    <input type="text" name="subject" placeholder="Subject" size="50px" />
+    <br>
+    <br>
+    <textarea>
+    <input area="text" name="subject" placeholder="Message" size=10px >
+        </textarea>
+    <input area="message" type="hidden" name="access_token" value="1cpq5g0seyxnefpc0uodagpa" />
+    <!-- return urls can be fully qualified -OR-
+start with / for root relative -OR-
+start with . for url relative -->
+    <input type="hidden" name="success_url" value=".?message=Email+Successfully+Sent%21&isError=0" />
+    <input type="hidden" name="error_url" value=".?message=Email+could+not+be+sent.&isError=1" />
+
+
+    <!-- set the reply-to address -->
+    <!-- <input type="text" name="reply_to"
+    placeholder="Your Email" /> -->
+
+    <!-- to append extra fields, use the extra_ prefix.
+Entries will be appended to your message body. -->
+    <!-- <input type="text" name="extra_phone_number"
+    placeholder="Phone Number" /> -->
+
+    <!-- to split your message into 160 chars
+for an sms gateway -->
+    <!-- <input type="hidden"
+    name="sms_format" value="true" /> -->
+    <br>
+    <br>
+    <input id="submit_form" type="submit" value="Send"/>
+    <!-- not required, but we'd appreciate it if you'd link to us somewhere on your site -->
+    <p>Powered by <a href="https://postmail.invotes.com" target="_blank">PostMail</a></p>
+    </form>
+
+<!-- optional, prevents the submit button from being pressed more than once -->
+    <script>
+    var submitButton = document.getElementById("submit_form");
+    var form = document.getElementById("email_form");
+    form.addEventListener("submit", function(e) {
+        setTimeout(function() {
+            submitButton.value = "Sending...";
+            submitButton.disabled = true;
+        }, 1);
+    });
+
+</script>
+</div>
+</body>
+
