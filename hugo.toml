@@ -1,4 +1,4 @@
-baseURL = 'https://mavtek-web-technologies.onrender.com'
+baseURL = 'https://mavtek-technologies.onrender.com'
 languageCode = 'en-us'
 title = 'Mavtek Technologies'
 theme = 'hugo-universal-theme'
@@ -40,7 +40,7 @@ disqusShortname = "devcows"
     
 [[params.menu]]
    name = "Contact"
-    url  = "/form.html"
+    url  = "/contact"
    weight = 4
 
 #[[menu.main]]
@@ -74,7 +74,7 @@ disqusShortname = "devcows"
 
 [params.topbar]
     enable = true
-    text = "<p>MAVTEK TECHNOLOGIES</p>"
+    text = "<p> Mavtek Technologies </p>"
 
     [[menu.topbar]]
         weight = 1
