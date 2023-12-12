@@ -42,7 +42,7 @@ disqusShortname = "devcows"
     
 [[params.menu]]
    #name = "Contact"
-   # url  = "/form.html"
+   # url  = "mavtek-website/themes/hugo-universal-theme/exampleSite/index.html"
    # weight = 4
 
 [[menu.main]]
@@ -60,13 +60,13 @@ disqusShortname = "devcows"
 [[menu.main]]
     name        = "Resume"
     identifier  = "menu.resume"
-    url         = "/"
+    url         = "/about.md"
     weight      = 3
 
 [[menu.main]]
     name        = "Contact"
     identifier  = "menu.contact"
-    url         = "/"
+    url         = "/mavtek-website/themes/hugo-universal-theme/exampleSite/form.html"
     weight      = 4
 
 [params.widgets]
