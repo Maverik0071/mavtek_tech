@@ -41,8 +41,8 @@ disqusShortname = "devcows"
     twitter_site = "GoHugoIO"
     
 [[params.menu]]
-   #name = "Contact"
-   # url  = "mavtek-website/themes/hugo-universal-theme/exampleSite/index.html"
+   name = "Contact"
+    # url  = "/static/form.html"
    # weight = 4
 
 [[menu.main]]
@@ -60,13 +60,13 @@ disqusShortname = "devcows"
 [[menu.main]]
     name        = "Resume"
     identifier  = "menu.resume"
-    url         = "/about.md"
+    url         = "/static/about.md"
     weight      = 3
 
 [[menu.main]]
     name        = "Contact"
     identifier  = "menu.contact"
-    url         = "/mavtek-website/themes/hugo-universal-theme/exampleSite/form.html"
+    url         = "/static/my-first-post.md"
     weight      = 4
 
 [params.widgets]
@@ -112,7 +112,7 @@ disqusShortname = "devcows"
     icon = "far fa-file-alt"
     title = "Do you want to see more?"
     subtitle = "Fill Out The Form"
-    link_url = "http://your-site.com/more"
+    link_url = "/https://localhost:1313/"
     link_text = "Click here Please"
 
     [params.clients]
